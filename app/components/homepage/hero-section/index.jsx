@@ -4,8 +4,8 @@ import { personalData } from "@/utils/data/personal-data";
 import Image from "next/image";
 import Link from "next/link";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
-import { FaFacebook, FaTwitterSquare } from "react-icons/fa";
-import { MdDownload } from "react-icons/md";
+import { FaTwitterSquare } from "react-icons/fa";
+import { GoArrowUpRight } from "react-icons/go";
 import { RiContactsFill } from "react-icons/ri";
 import { SiLeetcode } from "react-icons/si";
 
@@ -78,8 +78,8 @@ function HeroSection() {
               target="_blank"
               href={personalData.resume}
             >
-              <span>Get Resume</span>
-              <MdDownload size={16} />
+              <span>View Resume</span>
+              <GoArrowUpRight size={18} strokeWidth={2} />
             </Link>
           </div>
         </div>
@@ -132,22 +132,20 @@ function HeroSection() {
                 <span className="text-gray-400">{"'],"}</span>
               </div>
               <div>
+                <span className="ml-4 lg:ml-8 mr-2 text-white">diligent:</span>
+                <span className="text-orange-400">true</span>
+                <span className="text-gray-400">,</span>
+              </div>
+              <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">
-                  hardWorker:
+                  adeptLearner:
                 </span>
                 <span className="text-orange-400">true</span>
                 <span className="text-gray-400">,</span>
               </div>
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">
-                  quickLearner:
-                </span>
-                <span className="text-orange-400">true</span>
-                <span className="text-gray-400">,</span>
-              </div>
-              <div>
-                <span className="ml-4 lg:ml-8 mr-2 text-white">
-                  problemSolver:
+                  adeptProblemSolver:
                 </span>
                 <span className="text-orange-400">true</span>
                 <span className="text-gray-400">,</span>
@@ -167,12 +165,12 @@ function HeroSection() {
               </div>
               <div>
                 <span className="ml-12 lg:ml-24 text-cyan-400">this.</span>
-                <span className="mr-2 text-white">hardWorker</span>
+                <span className="mr-2 text-white">diligent</span>
                 <span className="text-amber-300">&amp;&amp;</span>
               </div>
               <div>
                 <span className="ml-12 lg:ml-24 text-cyan-400">this.</span>
-                <span className="mr-2 text-white">problemSolver</span>
+                <span className="mr-2 text-white">adeptProblemSolver</span>
                 <span className="text-amber-300">&amp;&amp;</span>
               </div>
               <div>
