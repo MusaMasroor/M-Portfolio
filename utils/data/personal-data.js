@@ -10,9 +10,9 @@ export const personalData = {
 
   email: "musamasroor786@gmail.com",
 
-  twitter: "https://twitter.com/said7388",
+  // twitter: "https://twitter.com/said7388",
 
-  leetcode: "https://leetcode.com/said3812/",
+  // leetcode: "https://leetcode.com/MusaMasroor/",
 
   github: "https://github.com/MusaMasroor",
 
