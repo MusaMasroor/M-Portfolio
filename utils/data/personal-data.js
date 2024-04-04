@@ -21,5 +21,5 @@ export const personalData = {
   stackOverflow: "https://stackoverflow.com/users/23505531/musa-masroor",
 
   resume:
-    "https://drive.google.com/file/d/1CzGZiGebfC0vdskRmxHl7om8FqhRYSLf/view?usp=sharing",
+    "https://drive.google.com/file/d/1meDvdfUkIaGqbFV0RHxCnDLXfnpOWqA7/view?usp=sharing",
 };
