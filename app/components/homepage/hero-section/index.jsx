@@ -112,11 +112,11 @@ function HeroSection() {
               <div className="ml-4 lg:ml-8 mr-2">
                 <span className=" text-white">skills:</span>
                 <span className="text-gray-400">{`['`}</span>
-                <span className="text-amber-300">React.js</span>
-                <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Next.js</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Redux</span>
+                <span className="text-amber-300">React.js</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Prisma ORM</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Express.js</span>
                 <span className="text-gray-400">{"', '"}</span>
