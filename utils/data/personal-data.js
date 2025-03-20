@@ -11,5 +11,5 @@ export const personalData = {
   linkedIn: "https://www.linkedin.com/in/musa-masroor-8b4203252",
   stackOverflow: "https://stackoverflow.com/users/23505531/musa-masroor",
   resume:
-    "https://drive.google.com/file/d/13z2jj64d0tXPNdLtGpB6UQzremUiZ0HA/view?usp=sharing",
+    "https://drive.google.com/file/d/1tlHac5FisFLBzvXDaImdl6nQdFP3bBGK/view?usp=sharing",
 };
