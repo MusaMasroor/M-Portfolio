@@ -3,18 +3,40 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: rgb(211, 216, 232);
+  --primary: #16f2b3;
+  --primary-hover: #14dba2;
+  --background: #0d1224;
+  --text-base: #d3d8e8;
+  --text-muted: #9ca3af;
+  --accent: #ec4899;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
+    --primary: #16f2b3;
+    --primary-hover: #14dba2;
+    --background: #0d1224;
+    --text-base: #d3d8e8;
+    --text-muted: #9ca3af;
+    --accent: #ec4899;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background-color: #0d1224;
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+  }
+
+  body {
+    color: var(--text-base);
+    background-color: var(--background);
+  }
+
+  ::selection {
+    background-color: var(--accent);
+    color: white;
+  }
 }
 
 #sticky-card-1 {
@@ -36,4 +58,22 @@ body {
 .sticky-card {
   // padding-top: calc(var(--index) * 2.5rem);
   top: calc(var(--index) * 4rem);
+}
+
+/* Scrollbar Styles */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--text-muted);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent);
 }
